@@ -28,6 +28,7 @@
 	<modules>
 		<module>core-dependencies</module>
 		<module>spring-cloud-task-jdbchdfs-common</module>
+		<module>spring-cloud-task-sqoop-common</module>
 	</modules>
 
 	<dependencyManagement>
