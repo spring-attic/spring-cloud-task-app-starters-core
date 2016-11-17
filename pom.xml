@@ -27,13 +27,14 @@
 
 	<modules>
 		<module>core-dependencies</module>
+		<module>spring-cloud-task-jdbchdfs-common</module>
 	</modules>
 
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
-				<groupId>org.springframework.cloud.stream.app</groupId>
-				<artifactId>app-starters-core-dependencies</artifactId>
+				<groupId>org.springframework.cloud.task.app</groupId>
+				<artifactId>task-app-starters-core-dependencies</artifactId>
 				<version>1.1.0.BUILD-SNAPSHOT</version>
 				<type>pom</type>
 				<scope>import</scope>
@@ -112,7 +113,7 @@
                             <configuration>
                                 <javaVersion>1.7</javaVersion>
                                 <bootVersion>${bootVersion}</bootVersion>
-                                <applicationType>stream</applicationType>
+                                <applicationType>task</applicationType>
                                 <additionalBoms>
                                     <bom>
                                         <name>task-app-starters-core-dependencies</name>
@@ -121,10 +122,6 @@
                                         <version>${project.version}</version>
                                     </bom>
                                 </additionalBoms>
-                                <binders>
-                                    <kafka/>
-                                    <rabbit/>
-                                </binders>
                                 <additionalGlobalDependencies>
                                     <dependency>
                                         <groupId>org.springframework.cloud</groupId>

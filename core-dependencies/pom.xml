@@ -17,7 +17,11 @@
 
 	<properties>
 		<java.version>1.7</java.version>
+		<spring-data-hadoop.version>2.4.0.RELEASE</spring-data-hadoop.version>
 		<spring.cloud.dependencies.version>Camden.SR2</spring.cloud.dependencies.version>
+		<spring.data.hadoop.store>2.4.0.RELEASE</spring.data.hadoop.store>
+		<spring.cloud.deployer.spi>1.0.1.RELEASE</spring.cloud.deployer.spi>
+		<spring.cloud.deployer.resource.maven>1.0.0.RELEASE</spring.cloud.deployer.resource.maven>
 	</properties>
 
 	<dependencyManagement>
@@ -29,6 +33,34 @@
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
+			<dependency>
+				<groupId>org.springframework.cloud.task.app</groupId>
+				<artifactId>spring-cloud-task-jdbchdfs-common</artifactId>
+				<version>1.1.0.BUILD-SNAPSHOT</version>
+			</dependency>
+
+			<dependency>
+				<groupId>org.springframework.data</groupId>
+				<artifactId>spring-data-hadoop-boot</artifactId>
+				<version>${spring-data-hadoop.version}</version>
+			</dependency>
+
+			<dependency>
+				<groupId>org.springframework.data</groupId>
+				<artifactId>spring-data-hadoop-store</artifactId>
+				<version>${spring.data.hadoop.store}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.springframework.cloud</groupId>
+				<artifactId>spring-cloud-deployer-spi</artifactId>
+				<version>${spring.cloud.deployer.spi}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.springframework.cloud</groupId>
+				<artifactId>spring-cloud-deployer-resource-maven</artifactId>
+				<version>${spring.cloud.deployer.resource.maven}</version>
+			</dependency>
+
 		</dependencies>
 	</dependencyManagement>
 
