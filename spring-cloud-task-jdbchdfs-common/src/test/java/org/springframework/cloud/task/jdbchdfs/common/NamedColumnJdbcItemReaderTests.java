@@ -26,7 +26,7 @@ import org.junit.runner.RunWith;
 import org.springframework.batch.item.ExecutionContext;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
-import org.springframework.boot.test.SpringApplicationConfiguration;
+import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.jdbc.datasource.SingleConnectionDataSource;
 import org.springframework.test.annotation.DirtiesContext;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
@@ -40,7 +40,7 @@ import static org.junit.Assert.assertTrue;
  * @author Glenn Renfro
  */
 @RunWith(SpringJUnit4ClassRunner.class)
-@SpringApplicationConfiguration(classes = {NamedColumnJdbcItemReaderTests.DBConfiguration.class})
+@SpringBootTest(classes = {NamedColumnJdbcItemReaderTests.DBConfiguration.class})
 @DirtiesContext
 public class NamedColumnJdbcItemReaderTests {
 
