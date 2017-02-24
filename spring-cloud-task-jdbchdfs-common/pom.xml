@@ -3,7 +3,7 @@
 	<parent>
 		<groupId>org.springframework.cloud.task.app</groupId>
 		<artifactId>task-app-starters-build</artifactId>
-		<version>1.1.1.BUILD-SNAPSHOT</version>
+		<version>1.2.0.BUILD-SNAPSHOT</version>
 	</parent>
 	<modelVersion>4.0.0</modelVersion>
 
@@ -45,6 +45,12 @@
 		<dependency>
 			<groupId>org.springframework.data</groupId>
 			<artifactId>spring-data-hadoop-store</artifactId>
+			<exclusions>
+				<exclusion>
+					<groupId>javax.servlet</groupId>
+					<artifactId>servlet-api</artifactId>
+				</exclusion>
+			</exclusions>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.data</groupId>

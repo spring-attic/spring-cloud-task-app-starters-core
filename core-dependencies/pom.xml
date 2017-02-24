@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.springframework.cloud.task.app</groupId>
 	<artifactId>task-app-starters-core-dependencies</artifactId>
-	<version>1.1.1.BUILD-SNAPSHOT</version>
+	<version>1.2.0.BUILD-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<name>task-app-starters-core-dependencies</name>
 	<description>Spring Cloud Task App Core BOM</description>
@@ -42,18 +42,18 @@
 			<dependency>
 				<groupId>org.springframework.cloud.task.app</groupId>
 				<artifactId>spring-cloud-task-jdbchdfs-common</artifactId>
-				<version>1.1.1.BUILD-SNAPSHOT</version>
+				<version>1.2.0.BUILD-SNAPSHOT</version>
 			</dependency>
 			<dependency>
 				<groupId>org.springframework.cloud.task.app</groupId>
 				<artifactId>spring-cloud-task-sqoop-common</artifactId>
-				<version>1.1.1.BUILD-SNAPSHOT</version>
+				<version>1.2.0.BUILD-SNAPSHOT</version>
 			</dependency>
 			<dependency>
 				<groupId>org.springframework.cloud.task.app</groupId>
 				<artifactId>spring-cloud-task-sqoop-common</artifactId>
 				<classifier>tests</classifier>
-				<version>1.1.1.BUILD-SNAPSHOT</version>
+				<version>1.2.0.BUILD-SNAPSHOT</version>
 			</dependency>
 
 			<dependency>
