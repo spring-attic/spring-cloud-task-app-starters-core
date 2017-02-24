@@ -23,6 +23,7 @@
 		<scs-app-maven-plugin.version>1.2.3.RELEASE</scs-app-maven-plugin.version>
 		<bomsWithHigherPrecedence/>
 		<bootVersion>1.5.1.RELEASE</bootVersion>
+		<task-app-starters-core-dependencies.version>1.2.0.M1</task-app-starters-core-dependencies.version>
 	</properties>
 
 	<modules>
@@ -120,7 +121,7 @@
                                         <name>task-app-starters-core-dependencies</name>
                                         <groupId>org.springframework.cloud.task.app</groupId>
                                         <artifactId>task-app-starters-core-dependencies</artifactId>
-                                        <version>${project.version}</version>
+                                        <version>${task-app-starters-core-dependencies.version}</version>
                                     </bom>
                                 </additionalBoms>
                                 <additionalGlobalDependencies>
