@@ -20,11 +20,11 @@
 	</scm>
 
 	<properties>
-		<scs-app-maven-plugin.version>1.2.4.RC1</scs-app-maven-plugin.version>
+		<scs-app-maven-plugin.version>1.2.4.RELEASE</scs-app-maven-plugin.version>
 		<bomsWithHigherPrecedence/>
 		<bootVersion>1.5.2.RELEASE</bootVersion>
 		<task-app-starters-core-dependencies.version>1.2.0.BUILD-SNAPSHOT</task-app-starters-core-dependencies.version>
-		<app-metadata-maven-plugin-version>1.0.0.RC1</app-metadata-maven-plugin-version>
+		<app-metadata-maven-plugin-version>1.0.0.RELEASE</app-metadata-maven-plugin-version>
 	</properties>
 
 	<modules>
@@ -48,7 +48,7 @@
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-task-core</artifactId>
+			<artifactId>spring-cloud-starter-task</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
