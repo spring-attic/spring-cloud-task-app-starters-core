@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.springframework.cloud.task.app</groupId>
 	<artifactId>task-app-starters-build</artifactId>
-	<version>1.2.0.RELEASE</version>
+	<version>1.2.1.BUILD-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<name>task-app-starters-build</name>
 	<parent>
@@ -23,7 +23,7 @@
 		<scs-app-maven-plugin.version>1.2.4.RELEASE</scs-app-maven-plugin.version>
 		<bomsWithHigherPrecedence/>
 		<bootVersion>1.5.2.RELEASE</bootVersion>
-		<task-app-starters-core-dependencies.version>1.2.0.RELEASE</task-app-starters-core-dependencies.version>
+		<task-app-starters-core-dependencies.version>1.2.1.BUILD-SNAPSHOT</task-app-starters-core-dependencies.version>
 		<app-metadata-maven-plugin-version>1.0.0.RELEASE</app-metadata-maven-plugin-version>
 	</properties>
 
@@ -38,7 +38,7 @@
 			<dependency>
 				<groupId>org.springframework.cloud.task.app</groupId>
 				<artifactId>task-app-starters-core-dependencies</artifactId>
-				<version>1.2.0.RELEASE</version>
+				<version>1.2.1.BUILD-SNAPSHOT</version>
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
