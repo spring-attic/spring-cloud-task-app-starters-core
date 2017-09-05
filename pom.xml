@@ -23,7 +23,7 @@
 		<scs-app-maven-plugin.version>1.2.6.M1</scs-app-maven-plugin.version>
 		<bomsWithHigherPrecedence/>
 		<bootVersion>1.5.6.RELEASE</bootVersion>
-		<task-app-starters-core-dependencies.version>1.3.0.M1</task-app-starters-core-dependencies.version>
+		<task-app-starters-core-dependencies.version>1.3.0.BUILD-SNAPSHOT</task-app-starters-core-dependencies.version>
 		<app-metadata-maven-plugin-version>1.0.0.RELEASE</app-metadata-maven-plugin-version>
 	</properties>
 
