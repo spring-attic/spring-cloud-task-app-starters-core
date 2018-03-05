@@ -93,7 +93,7 @@ public class JdbcHdfsDataSourceConfigurationTests {
 	/**
 	 * Verify that the Task DataSource Fails to create if properties are not set.
 	 */
-	@Test(expected = SQLException.class)
+	@Test(expected = IllegalArgumentException.class)
 	public void testFailTaskDataSource() throws SQLException{
 		context.register(JdbcHdfsDataSourceConfiguration.class);
 		JdbcHdfsDataSourceConfiguration config = context.getBean(JdbcHdfsDataSourceConfiguration.class);
@@ -123,7 +123,7 @@ public class JdbcHdfsDataSourceConfigurationTests {
 	/**
 	 * Verify that the JdbcHdfs DataSource Fails to create if properties are not set.
 	 */
-	@Test(expected = SQLException.class)
+	@Test(expected = IllegalArgumentException.class)
 	public void testFailJdbcHdfsDataSource() throws SQLException{
 		context.register(JdbcHdfsDataSourceConfiguration.class);
 		JdbcHdfsDataSourceConfiguration config = context.getBean(JdbcHdfsDataSourceConfiguration.class);
