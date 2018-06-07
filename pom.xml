@@ -252,6 +252,11 @@
 					<name>Spring Milestones</name>
 					<url>http://repo.spring.io/libs-milestone-local</url>
 				</pluginRepository>
+				<pluginRepository>
+                                        <id>spring-releases</id>
+                                        <name>Spring Releases</name>
+                                        <url>http://repo.spring.io/libs-release</url>
+                                </pluginRepository>
 			</pluginRepositories>
 		</profile>
 	</profiles>
