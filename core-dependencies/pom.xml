@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.springframework.cloud.task.app</groupId>
 	<artifactId>task-app-starters-core-dependencies</artifactId>
-	<version>2.1.0.BUILD-SNAPSHOT</version>
+	<version>2.1.0.M1</version>
 	<packaging>pom</packaging>
 	<name>task-app-starters-core-dependencies</name>
 	<description>Spring Cloud Task App Core BOM</description>
